@@ -1,7 +1,5 @@
-[[plugins]]
-  package = "netlify-plugin-flutter"
-
 [build]
+  command = "chmod +x build.sh && ./build.sh"
   publish = "build/web"
 
 [[redirects]]
